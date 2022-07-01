@@ -52,8 +52,8 @@ const HomePage = () => {
   const deleteItem = index => {
     Alert.alert("Delete Item", "Are you sure you want to delete this item?", [
       {
-        text: "Cancle",
-        style: "cancle"
+        text: "Cancel",
+        style: "Cancel"
       },
       {
         text: "Yes",
