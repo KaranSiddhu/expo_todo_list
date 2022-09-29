@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: sonarsource/sonarqube-scan-action@master
+      - uses: sonarsource/sonarqube-scan-action@main
         env:
           SONAR_TOKEN: sqp_adbc90c527217c1a3185057f0df76c8fa86ab78a
           SONAR_HOST_URL: http://127.0.0.1:9000
